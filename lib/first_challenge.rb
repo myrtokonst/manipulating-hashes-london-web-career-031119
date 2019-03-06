@@ -14,15 +14,7 @@ def first_challenge
   }
 
   #your code here
-contacts.each do |person, data|
-  if data == "Freddy Mercury"
-    data.each do |things, values|
-      if things == favorite_icecream_flavors
-        values.delete("strawberry")
-      end 
-    end 
-  end 
-end 
+
 contacts
   #remember to return your newly altered contacts hash!
   contacts
