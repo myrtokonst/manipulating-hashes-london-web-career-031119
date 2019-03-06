@@ -14,7 +14,9 @@ def first_challenge
   }
 
   #your code here
-
+contacts.each do |name, data|
+  if data == "Freddy Mercury"
+    data.each do |
 
   #remember to return your newly altered contacts hash!
   contacts
