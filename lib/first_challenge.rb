@@ -17,8 +17,8 @@ def first_challenge
 contacts.each do |person, data|
   if data == "Freddy Mercury"
     data.each do |things, values|
-      if values == favorite_icecream_flavors
-        favorite_icecream_flavors.unshift()
+      if things == favorite_icecream_flavors
+        values.delete_if()
       end 
       end
     end 
