@@ -18,7 +18,7 @@ contacts.each do |person, data|
   if data == "Freddy Mercury"
     data.each do |things, values|
       if values == favorite_icecream_flavors
-        favorite_icecream_flavors.remo
+        favorite_icecream_flavors.delete_if
       end
     end 
   end 
